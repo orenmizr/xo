@@ -1,0 +1,35 @@
+{
+  "name": "xo",
+  "version": "1.0.0",
+  "description": "",
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "start": "gulp"
+  },
+  "dependencies": {
+    "ampersand-app": "^1.0.4",
+    "ampersand-state": "^4.8.2",
+    "ampersand-view": "^9.0.0",
+    "domready": "^1.0.8"
+  },
+  "devDependencies": {
+    "breakpoint-sass": "^2.6.1",
+    "browser-sync": "^2.10.0",
+    "browserify": "^12.0.1",
+    "compass-mixins": "^0.12.7",
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-jade": "^1.0.1",
+    "gulp-plumber": "^1.0.1",
+    "gulp-plumber-notifier": "0.0.2",
+    "gulp-sass": "^2.1.0",
+    "gulp-sourcemaps": "^1.6.0",
+    "jade": "^1.11.0",
+    "jadeify": "^4.5.0",
+    "susy": "^2.2.6",
+    "templatizer": "^1.5.4",
+    "vinyl-source-stream": "^1.1.0",
+    "watchify": "^3.6.1"
+  }
+}

@@ -1,0 +1,39 @@
+@import "../../node_modules/susy/sass/susy";
+@import "../../node_modules/breakpoint-sass/stylesheets/breakpoint";
+
+$susy: (
+  columns: 12,
+  gutters: 0,
+  math: fluid,
+  output: float,
+  gutter-position: inside,
+  container: 960px
+);
+
+@import "../../node_modules/compass-mixins/lib/compass/reset";
+@import "../../node_modules/compass-mixins/lib/compass/utilities/general/clearfix";
+
+.container {
+  @include container;
+}
+.board {
+}
+
+.row {
+  @include clearfix;
+}
+
+.cell {
+  width: 100px;
+  height: 100px;
+  border: 1px solid red;
+}
+.cell:nth-child(1n) {
+  @include span(4 of 12);
+}
+.cell:nth-child(2n) {
+  @include span(4 at 5 of 12);
+}
+.cell:nth-child(3n) {
+  @include span(4 at 9 of 12);
+}
